@@ -176,12 +176,6 @@ section img {
     margin-top: 40px;
 }
 
-.container-wide {
-    width: 960px;
-    margin: auto;
-    margin-top: 40px;
-}
-
 .card {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -190,6 +184,7 @@ section img {
     overflow: hidden;
     width: 300px;
 }
+
 
 .card-header img {
     width: 100%;
@@ -333,6 +328,7 @@ hr {
 }
 
 .card-about-body-wide {
+    display: grid;
     align-items: start;
     justify-content: left;
     text-align: left;
