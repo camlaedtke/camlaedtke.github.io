@@ -360,6 +360,11 @@ hr {
     list-style: none;
 }
 
+.card-about-wide ul{
+    padding-top: 10px;
+    list-style: none;
+}
+
 .prog-lang {
     display: flex;
     margin-top: 10px;
@@ -372,6 +377,12 @@ hr {
     margin-right: 15px;
 }
 
+.card-about-wide img{
+    height: 25px;
+    min-width: 25px;
+    max-width: 25px;
+    margin-right: 15px;
+}
  
 .card-about-body:nth-child(1) {
     justify-content: center;
