@@ -132,6 +132,10 @@ section img {
     text-align: center;
 }
 
+.container-wide {
+    text-align: center;
+}
+
 #text {
     position: relative;
     color: #edf0f1;
@@ -167,6 +171,12 @@ section img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container-wide {
     width: 960px;
     margin: auto;
     margin-top: 40px;
@@ -289,7 +299,18 @@ small {
     align-self: start;
 }
 
+.card-about-wide {
+    overflow: hidden;
+    width: 960px;
+    align-self: start;
+}
+
 .card-about h4{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.card-about-wide h4{
     font-size: 1.2rem;
     padding-bottom: 10px;
 }
@@ -310,6 +331,15 @@ hr {
     padding: 20px;
     min-height: 250px;
 }
+
+.card-about-body-wide {
+    align-items: start;
+    justify-content: left;
+    text-align: left;
+    padding: 20px;
+    min-height: 250px;
+}
+
 
 .card-about-body-button {
     display: grid;
