@@ -388,6 +388,10 @@ hr {
     justify-content: center;
 }
 
+.card-about-body-wide:nth-child(1) {
+    justify-content: center;
+}
+
 #svg-alternate {
     filter: invert(100%);
 }
