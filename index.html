@@ -247,15 +247,13 @@
     <!-- Main background photos ------->
     <script type="text/javascript">
         let sky = document.getElementById('sky')
-        let mountains = document.getElementById('mountains')
         let text = document.getElementById('text')
         let text_secondary = document.getElementById('text-secondary')
 
         window.addEventListener('scroll', function() {
             var value = window.scrollY
-            sky.style.top = value * 0.5 + 'px'
-            mountains.style.top = -value * 0.06 + 'px'
-            text.style.top = value * 0.15 + 'px'
+            sky.style.top = value + 'px'
+            text.style.top = value * 0.3 + 'px'
         })
     </script>
 </body>
