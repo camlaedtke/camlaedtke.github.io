@@ -123,7 +123,16 @@ section img {
     height: 100%;
 }
 
+#mountains {
+    height: 100%;
+}
+
 #moon {
+    height: 110%;
+    width: auto;
+}
+
+#skybg {
     height: 110%;
     width: auto;
 }

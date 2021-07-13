@@ -22,10 +22,8 @@
 
     <section>
     	<!-- Main background photos ------->
-        <img src="bg.jpeg" id="bg">
-        <img src="moon.png" id="moon">
-        <img src="city.png" id="city">
-        <img src="road.png" id="road">
+        <img src="sky.jpg" id="bg">
+        <img src="mountains.jpg" id="mountains">
         <h2 id="text">Data Science</h2>
     </section>
 
@@ -249,18 +247,14 @@
     <!-- Main background photos ------->
     <script type="text/javascript">
         let bg = document.getElementById('bg')
-        let moon = document.getElementById('moon')
-        let city = document.getElementById('city')
-        let road = document.getElementById('road')
+        let mountains = document.getElementById('mountains')
         let text = document.getElementById('text')
         let text_secondary = document.getElementById('text-secondary')
 
         window.addEventListener('scroll', function() {
             var value = window.scrollY
             bg.style.top = value * 0.5 + 'px'
-            moon.style.left = -value * 0.5 + 'px'
-            city.style.top = -value * 0.06 + 'px'
-            road.style.top = value * 0.06 + 'px'
+            mountains.style.top = -value * 0.06 + 'px'
             text.style.top = value * 0.15 + 'px'
         })
     </script>
