@@ -1,1 +1,1 @@
-# CREDIT TO ADRIAN LEAL FOR THE TEMPLATE - lealal.github.io
+# Credit to Adrian Leal for the template. lealal.github.io
